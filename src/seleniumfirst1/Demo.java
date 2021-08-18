@@ -51,6 +51,7 @@ public class Demo {
 		driver.findElement(By.id("continue")).click();
 		
 		driver.quit();
+		driver.close();
 		
 	
 		
